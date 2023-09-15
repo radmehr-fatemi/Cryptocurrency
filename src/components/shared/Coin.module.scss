@@ -1,0 +1,58 @@
+.coin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: .2rem 1rem;
+    background: linear-gradient(to right top, #8cadbc, #ced7eb, #eef1f3);
+    border-bottom: 2px solid #fff;
+}
+
+.imageCoin {
+    display: flex;
+    align-items: center;
+    width: 20%;
+
+    img {
+        width: 35px;
+        height: 35px;
+    }
+
+    h3 {
+        color: #fff;
+        margin-left: 2rem;
+        text-shadow: 1px 1px 2px #111;
+    }
+}
+
+.spanCoin {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 33%;
+    }
+}
+
+//Span
+.symbol {
+    font-size: 1.1rem;
+    color: #35434a;
+}
+
+.current_price {
+    color: rgb(9, 96, 9);
+}
+
+.price_change_24h_goingUp {
+    color: rgb(0, 156, 5);
+}
+.price_change_24h_goingDown {
+    color: red;
+}
